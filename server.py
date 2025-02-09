@@ -50,7 +50,7 @@ class CrashHunter:
         }
         for site in self.targets:
             try:
-                self.session.post(f"https://{site}/place-bet", data=payload)
+                self.session.post(f"ws://{site}/place-bet", data=payload)
             except Exception as e:
                 pass
 

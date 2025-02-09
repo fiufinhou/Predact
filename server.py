@@ -2,6 +2,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # CRASH PREDICTOR MALWARE CORE (PHASE 1)
+import time
 import requests
 from bs4 import BeautifulSoup
 import websockets

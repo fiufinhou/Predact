@@ -1,0 +1,21 @@
+/* [START OUTPUT] */
+/* STEALTH PHISHING LAYER */
+.login-form {
+    background: url('data:image/png;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTggMEMzLjU4IDAgMCAzLjU4IDAgOHMzLjU4IDggOCA4IDgtMy41OCA4LThzLTMuNTgtOC04LTh6bTAgMTQuNWMtMy41OSAwLTYuNS0yLjkxLTYuNS02LjVTNC40MSAxLjUgOCAxLjVzNi41IDIuOTEgNi41IDYuNS0yLjkxIDYuNS02LjUgNi41eiIvPjwvc3ZnPg==');
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+input[type="email"], input[type="password"] {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid #414141;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0,123,255,0.4);
+}
